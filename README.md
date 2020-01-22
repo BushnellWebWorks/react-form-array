@@ -1,4 +1,4 @@
-#React-Form-Array#
+# React-Form-Array
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) (in early 2019).
 
@@ -22,16 +22,16 @@ Props for this component are:
 + `removeRow(ix)` = remove the row at this index (e.g. button onClick handler)
 
 Initial / Default values:
-Pass init data in the 'data' attribute of the root `\<FormArray data={[{foo:xxx,bar:yyy}]} /\>` component.
+Pass init data in the 'data' attribute of the root `<FormArray data={[{foo:xxx,bar:yyy}]} />` component.
 
-If it's to be used in a webpage, assign data to a window variable myFormArray. If a different window var name is desired, then pass that name into the var attribute `\<FormArray var="foo" /\>`. Component will maintain the value of this window variable.
+If it's to be used in a webpage, assign data to a window variable myFormArray. If a different window var name is desired, then pass that name into the var attribute `<FormArray var="foo" />`. Component will maintain the value of this window variable.
 
 
 To deploy to a webpage:
 
 1) Ensure package.json includes a line `"homepage": "."`,
 
-2) in index.js, define the querySelector for the container div (argument for `ReactDOM.render(\<App /\>, ...`)
+2) in index.js, define the querySelector for the container div (argument for `ReactDOM.render( <App />, ...`)
 
 3) `yarn build` will output 3 js files and a css file. Rename them as appropriate, but include all of them. "Runtime" should come first.
 
